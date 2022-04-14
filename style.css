@@ -1,0 +1,198 @@
+html, body {
+    height:100%;
+}
+
+.vignette-shadow {
+background: rgb(39, 39, 39);
+height: 100%;
+/* box-shadow: inset 0 0 100px rgba(53, 51, 32, 0.596); */
+}
+
+.emoji {
+  text-align: center;
+  font-size: 40px;
+}
+.daily-emoji {
+  text-align: center;
+  font-size: 40px;
+}
+
+/* 
+.carousel {
+    height: 100vh;
+    width: 100%;
+    overflow:hidden;
+}
+.carousel .carousel-inner {
+    height:100%;    
+} */
+
+#magic-button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background: #8383838c;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 3px -10px 15px rgba(255, 255, 255, 0.548);
+  background-image: linear-gradient(144deg,#bababa9f, #595959af 50%,#242424a6);
+  
+  /* position: absolute;
+  bottom: 15%; */
+}
+
+#magic-button:hover {
+  background: #756397;
+  box-shadow: 0 5px 20px rgba(36, 36, 36, 0.15);
+  box-shadow: inset 0 1px 4px rgba(255, 255, 255, 0.801);
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+}
+
+.center-col {
+  width: 100%;
+  margin: auto;
+}
+
+.slide-title-text {
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+    
+    color: rgb(214, 202, 202);
+    
+    text-align: center;
+
+    /* text-shadow: -3px 3px #93899e; */
+}
+
+.slide-text {
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    
+    color: rgb(214, 202, 202);
+    
+    text-align: center;
+    /* opacity: 0; */
+}
+
+
+.title-text {
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+    
+    color: rgb(214, 202, 202);
+    
+    text-align: center;
+
+    /* text-shadow: -3px 3px #93899e; */
+}
+
+.daily-text {
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+    
+    color: rgb(214, 202, 202);
+    
+    text-align: center;
+}
+
+
+.quote-sections {
+  height: 40vh;
+  min-height: 40vh;
+
+  width: 90%;
+
+  min-width: 55vw;
+  max-width: 55vw;
+
+  border-radius: 50px;
+  background-color: #a0a0a020;
+
+  padding: 20px;
+}
+
+@media screen and (max-width: 850px) {
+ 
+.slide-title-text {
+  font-family: 'Cabin', sans-serif;
+  font-size: 30px;
+  
+  color: rgb(214, 202, 202);
+  
+  text-align: center;
+
+  /* text-shadow: -3px 3px #93899e; */
+}
+
+.slide-text {
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px;
+  
+  color: rgb(214, 202, 202);
+  
+  text-align: center;
+}
+
+.title-text {
+  font-family: 'Cabin', sans-serif;
+  font-size: 30px;
+  
+  color: rgb(214, 202, 202);
+  
+  text-align: center;
+
+  /* text-shadow: -3px 3px #93899e; */
+}
+
+.daily-text {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    
+    color: rgb(214, 202, 202);
+    
+    text-align: center;
+}
+
+.quote-sections {
+  height: 35vh;
+  min-height: 35vh;
+
+  width: 90%;
+
+  min-width: 90vw;
+  max-width: 90vw;
+
+  border-radius: 50px;
+  background-color: #a0a0a020;
+
+  padding: 20px;
+}
+
+
+}
+
+
+.quote-section-for-you {
+  min-height: 43vh;
+}
+
+.top-title {
+  font-family: 'Cabin', sans-serif;
+  font-size: 100px;
+  
+  color: rgba(240, 204, 176, 0.774);
+  
+  text-align: center;
+
+  margin: 18px;
+  position: relative;
+  text-shadow: -5px 5px 1px #af8c5b3f;
+  letter-spacing: 0.18em;
+  user-select: none;
+  text-transform: uppercase;
+  font-size: 120px;
+  transition: all 0.25s ease-out;
+}
