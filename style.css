@@ -39,7 +39,7 @@ height: 100%;
   cursor: pointer;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
   box-shadow: inset 3px -10px 15px rgba(255, 255, 255, 0.548);
-  background-image: linear-gradient(144deg,#bababa9f, #595959af 50%,#242424a6);
+  background-image: linear-gradient(144deg,#dad7cd, #344e41 50%,#242424a6);
   
   /* position: absolute;
   bottom: 15%; */
