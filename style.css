@@ -3,7 +3,8 @@ html, body {
 }
 
 .vignette-shadow {
-background: rgb(39, 39, 39);
+/* background: rgb(39, 39, 39); */
+background: #dad7cd;
 height: 100%;
 /* box-shadow: inset 0 0 100px rgba(53, 51, 32, 0.596); */
 }
@@ -60,7 +61,8 @@ height: 100%;
     font-family: 'Cabin', sans-serif;
     font-size: 50px;
     
-    color: rgb(214, 202, 202);
+    /* color: rgb(214, 202, 202); */
+    color: #344e41;
     
     text-align: center;
 
@@ -71,7 +73,8 @@ height: 100%;
     font-family: 'Cabin', sans-serif;
     font-size: 25px;
     
-    color: rgb(214, 202, 202);
+    /* color: rgb(214, 202, 202); */
+    color: #3a5a40;
     
     text-align: center;
     /* opacity: 0; */
@@ -82,7 +85,8 @@ height: 100%;
     font-family: 'Cabin', sans-serif;
     font-size: 50px;
     
-    color: rgb(214, 202, 202);
+    /* color: rgb(52, 52, 52); */
+    color: #344e41;
     
     text-align: center;
 
@@ -93,7 +97,8 @@ height: 100%;
     font-family: 'Cabin', sans-serif;
     font-size: 30px;
     
-    color: rgb(214, 202, 202);
+    /* color: rgb(42, 42, 42); */
+    color: #3a5a40;
     
     text-align: center;
 }
@@ -109,7 +114,8 @@ height: 100%;
   max-width: 55vw;
 
   border-radius: 50px;
-  background-color: #a0a0a020;
+  /* background-color: #a0a0a020; */
+  background-color: #a3b18a;
 
   padding: 20px;
 }
@@ -120,7 +126,8 @@ height: 100%;
   font-family: 'Cabin', sans-serif;
   font-size: 30px;
   
-  color: rgb(214, 202, 202);
+  /* color: rgb(214, 202, 202); */
+  color: #344e41;
   
   text-align: center;
 
@@ -131,7 +138,8 @@ height: 100%;
   font-family: 'Cabin', sans-serif;
   font-size: 20px;
   
-  color: rgb(214, 202, 202);
+  /* color: rgb(214, 202, 202); */
+  color: #3a5a40;
   
   text-align: center;
 }
@@ -140,7 +148,8 @@ height: 100%;
   font-family: 'Cabin', sans-serif;
   font-size: 30px;
   
-  color: rgb(214, 202, 202);
+  /* color: rgb(214, 202, 202); */
+  color: #344e41;
   
   text-align: center;
 
@@ -151,7 +160,8 @@ height: 100%;
     font-family: 'Cabin', sans-serif;
     font-size: 20px;
     
-    color: rgb(214, 202, 202);
+    /* color: rgb(214, 202, 202); */
+    color: #3a5a40;
     
     text-align: center;
 }
@@ -166,7 +176,8 @@ height: 100%;
   max-width: 90vw;
 
   border-radius: 50px;
-  background-color: #a0a0a020;
+  /* background-color: #a0a0a020; */
+  background-color: #a3b18a;
 
   padding: 20px;
 }
@@ -181,18 +192,18 @@ height: 100%;
 
 .top-title {
   font-family: 'Cabin', sans-serif;
-  font-size: 100px;
   
-  color: rgba(240, 204, 176, 0.774);
+  /* color: rgba(240, 204, 176, 0.774); */
+  color: #a3b18a;
   
   text-align: center;
 
   margin: 18px;
   position: relative;
-  text-shadow: -5px 5px 1px #af8c5b3f;
+  text-shadow: -5px 5px 1px #1b4332;
   letter-spacing: 0.18em;
   user-select: none;
   text-transform: uppercase;
-  font-size: 120px;
+  font-size: 80px;
   transition: all 0.25s ease-out;
 }
