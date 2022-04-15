@@ -193,7 +193,7 @@ function getDayFromMs(ms) {
 }
 
 function getDailyIndex() {
-    let startDate = new Date("February 23, 2022");
+    let startDate = new Date("April 14, 2022");
     let msDiff = Date.now() - startDate.getTime();
     return getDayFromMs(msDiff);
 }
